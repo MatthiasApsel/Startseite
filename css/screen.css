@@ -298,6 +298,8 @@ article aside {
     background: #F1F3F4;
     margin-left: 40px;
     margin-bottom: 50px;
+    border: 1px solid #E4E4E4;
+    border-radius: 0 .7em .7em;
 }
 
 article aside ul {
