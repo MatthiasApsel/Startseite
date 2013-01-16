@@ -1,0 +1,316 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|Oswald);
+
+article, header, footer, aside {
+    display: block;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri, 'PT Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    background: white;
+    color: black;
+}
+
+header nav a, header nav a:hover {
+    transition: all 0.2s ease-in-out 0s;
+}
+
+a {
+    text-decoration: none;
+    color: #0091D2;
+}
+
+a img {
+    border: 0;
+}
+
+header.page {
+    border-bottom: 1px solid white;
+    padding: 7px 10%;
+    margin: 0 0 0 0;
+    color: #333;
+    background-color: #699cb3;
+    background-image: -webkit-gradient(linear, left top, right top, from(#75b0ca), to(#4089aa));
+    background-image: -webkit-linear-gradient(left, #75b0ca, #4089aa);
+    background-image: -moz-linear-gradient(left, #75b0ca, #4089aa);
+    background-image: -o-linear-gradient(left, #75b0ca, #4089aa);
+    background-image: linear-gradient(to right, #75b0ca, #4089aa);
+}
+
+header.page nav ul {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+header.page nav li {
+    display: inline;
+}
+
+header.page nav a {
+    padding: 14px 28px 14px 0;
+    margin: 0 15px 0 0;
+    height: 32px;
+    color: #e3ecf1;
+    font-size: .95em;
+}
+
+header.page nav a:hover {
+    color: white;
+}
+
+header.page nav img {
+    vertical-align: middle;
+}
+
+#search {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    *padding-top: 20px;
+}
+
+#search p {
+    float: right;
+    margin: 0;
+}
+
+#search input {
+    float: right;
+    *float: none;
+    color: #e3ecf1;
+    border: 0;
+    font-size: 0.9em;
+    padding: 0 0 0 38px;
+    width: 63px;
+    height: 35px;
+    background: url(../img/search-white.png) no-repeat scroll transparent 10px 50%;
+    border-radius: 6px;
+    -webkit-transition: all 0.4s ease;
+       -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+         -o-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+}
+
+#search input:focus {
+    background: white;
+    color: #333;
+    width: 220px;
+    outline: none;
+    background: url(../img/search-lightgrey.png) no-repeat scroll white 10px 50%;
+}
+
+#search label {
+    display: none;
+    color: #e3ecf1;
+    vertical-align: top;
+    padding: 0.1em 0.5em 0 0;
+}
+
+#search input::-webkit-input-placeholder { color: #e3ecf1; }
+#search input:-moz-placeholder { color: #e3ecf1; }
+#search input:-moz-placeholder:focus { color: #e3ecf1; }
+#search input:-ms-input-placeholder { color: #e3ecf1; }
+#search input:-o-input-placeholder { color: #e3ecf1; }
+#search input[type="search"] { -webkit-appearance: textfield; }
+
+footer {
+    border-top: 2px solid #E0E9EC;
+    padding: 0.5em 0;
+    margin: 0 10% 0 10%;
+}
+
+footer a {
+    color: #3481cd;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Social links */
+.sociallinks {
+    float: right;
+}
+.sociallinks li {
+    float: left;
+    display: inline;
+    padding: 0;
+    margin: 0 0 0 .7em;
+}
+.sociallinks  a {
+    text-indent: 100%;
+    background: url(../img/social.png) no-repeat scroll left top transparent;
+    display: block;
+    width: 37px;
+    height: 37px;
+    margin-top: 6px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.sociallinks  a, .sociallinks  a:hover {
+    -o-transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}   
+.sociallinks  a.atom {
+    background-position: -40px 0;
+}
+.sociallinks  a.github {
+    background-position: -80px 0;
+}
+.sociallinks  a.twitter {
+    background-position: -120px 0;
+}
+.sociallinks  a.flattr {
+    background-position: -160px 0;
+}
+.sociallinks  a.rss:hover, .sociallinks  a.rss:focus {
+    background-position: 0 -40px;
+}
+.sociallinks  a.atom:hover, .sociallinks  a.atom:focus {
+    background-position: -40px -40px;
+}
+.sociallinks  a.github:hover, .sociallinks  a.github:focus {
+    background-position: -80px -40px;
+}
+.sociallinks  a.twitter:hover, .sociallinks  a.twitter:focus {
+    background-position: -120px -40px;
+}
+.sociallinks  a.flattr:hover, .sociallinks  a.flattr:focus {
+    background-position: -160px -40px;
+}
+
+#content {
+    padding: 40px 10%;
+    border-top: 1px solid #0070A2;
+}
+
+article, footer p, header.page form {
+    max-width: 1200px;
+    margin: auto;
+}
+
+article:after, .twocol:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+
+article header {
+    padding: 20px 0;
+    border-top: ;
+}
+
+article header p {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, dt {
+    font-family: 'Oswald', Calibri, 'PT Sans', sans-serif;
+    color: #4C4A4A;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.2em;
+    line-height: 1.4em;
+    margin-bottom: 0;
+}
+
+h2 {
+    clear: both;
+    margin-top: 2em;
+}
+
+article h1 + h2 {
+    margin-top: 0;
+}
+
+article .twocol {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+article .twocol li {
+    margin-bottom: 1em;
+    width: 50%;
+    *width: 45%;
+    float: left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+       -moz-box-sizing: border-box; /* Firefox, other Gecko */
+        -ms-box-sizing: border-box; /* IE, other Gecko */
+         -o-box-sizing: border-box; /* Opera, other Gecko */
+            box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.twocol li:nth-child(2n) {
+    padding-left: 5%;
+}
+
+.twocol li:first-child + li,  /* IE8 hack */
+.twocol li:first-child + li + li + li,
+.twocol li:first-child + li + li +li + li + li,
+.twocol li:first-child + li + li +li + li + li + li + li {
+    padding-left: 5%;
+}
+
+.twocol li:nth-child(2n+1) {
+    clear: both;
+}
+
+.twocol li:first-child + li + li, /* IE8 hack */
+.twocol li:first-child + li + li + li + li,
+.twocol li:first-child + li + li +li + li + li + li {
+    clear: both;
+}
+
+article .twocol p {
+    margin: 0;
+}
+
+article .twocol h3 {
+    margin: 0;
+}
+
+article aside h2 {
+    margin-top: 20px;
+}
+
+article aside {
+    float: right;
+    padding: 10px 40px;
+    background: #F1F3F4;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+article aside ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+article aside li {
+    float: none;
+}
+
+.impressum h2 {
+    margin-top: 1em;
+    clear: both;
+}
