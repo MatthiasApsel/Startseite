@@ -162,9 +162,6 @@ footer p {
     -moz-transition: none;
     transition: none;
 }   
-.sociallinks  a.atom {
-    background-position: -40px 0;
-}
 .sociallinks  a.github {
     background-position: -80px 0;
 }
@@ -173,12 +170,6 @@ footer p {
 }
 .sociallinks  a.flattr {
     background-position: -160px 0;
-}
-.sociallinks  a.rss:hover, .sociallinks  a.rss:focus {
-    background-position: 0 -40px;
-}
-.sociallinks  a.atom:hover, .sociallinks  a.atom:focus {
-    background-position: -40px -40px;
 }
 .sociallinks  a.github:hover, .sociallinks  a.github:focus {
     background-position: -80px -40px;
