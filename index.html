@@ -5,16 +5,15 @@
     <title>SELFHTML</title>
     <link href="css/screen.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" title="SELFHTML Icon">
-    <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-    <![endif]-->
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+    <!--[if lte IE 9]><link href="css/ie.css" media="screen" rel="stylesheet" type="text/css"><![endif]-->
 </head>
 <body>
     <header class="page">
         <form id="search" method="post" action="http://suche.de.selfhtml.org/">
             <p>
-                <label for="searchinput">Suche</label>
                 <input type="text" placeholder="Suche" name="suchausdruck" id="searchinput" size="10" maxlength="50" />
+                <label for="searchinput">Suche</label>
                 <input type="hidden" name="feld" value="alle" />
                 <input type="hidden" name="hits" value="100" />
                 <input type="hidden" name="index_1" value="on" />

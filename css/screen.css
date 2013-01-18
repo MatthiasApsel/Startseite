@@ -73,7 +73,6 @@ header.page nav img {
     display: block;
     margin: 0 auto;
     padding: 0;
-    *padding-top: 20px;
 }
 
 #search p {
@@ -83,7 +82,6 @@ header.page nav img {
 
 #search input {
     float: right;
-    *float: none;
     color: #e3ecf1;
     border: 0;
     font-size: 0.9em;
@@ -112,6 +110,10 @@ header.page nav img {
     color: #e3ecf1;
     vertical-align: top;
     padding: 0.1em 0.5em 0 0;
+}
+
+#search label {
+    float: right;
 }
 
 #search input::-webkit-input-placeholder { color: #e3ecf1; }
@@ -241,7 +243,6 @@ article .twocol {
 article .twocol li {
     margin-bottom: 1em;
     width: 50%;
-    *width: 45%;
     float: left;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
        -moz-box-sizing: border-box; /* Firefox, other Gecko */
@@ -254,20 +255,7 @@ article .twocol li {
     padding-left: 5%;
 }
 
-.twocol li:first-child + li,  /* IE8 hack */
-.twocol li:first-child + li + li + li,
-.twocol li:first-child + li + li +li + li + li,
-.twocol li:first-child + li + li +li + li + li + li + li {
-    padding-left: 5%;
-}
-
 .twocol li:nth-child(2n+1) {
-    clear: both;
-}
-
-.twocol li:first-child + li + li, /* IE8 hack */
-.twocol li:first-child + li + li + li + li,
-.twocol li:first-child + li + li +li + li + li + li {
     clear: both;
 }
 
