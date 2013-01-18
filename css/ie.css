@@ -1,16 +1,8 @@
 /* IE 9 */
 
-#search input {
-    float: none;
-    display: inline-block;
-    width: 10px;
-    margin-right: -1.8em;
-    vertical-align: middle;
-    padding: 0.4em 0.4em 0.4em 35px;
-    height: auto;
+#search p {
+    display: none;
 }
-#search input:focus { margin-right: -4em; color: black; }
-#search label { display: inline-block; float: right; padding-left: 1em; }
 
 
 /* IE8 */
@@ -29,6 +21,3 @@
 
 /* IE 7 */
 article .twocol li { *width: 45%; }
-#search p { *display: inline; }
-#search input { *float: none; width: 150px; *background: white; *padding: 5px; *color: black; *margin-top: 2px; }
-#search label { *float: none; *margin-left: -210px; }
