@@ -205,7 +205,7 @@ article:after, .twocol:after {
 
 article header {
     padding: 20px 0;
-    border-top: ;
+    border-bottom: 2px solid #E0E9EC;
 }
 
 article header p {
