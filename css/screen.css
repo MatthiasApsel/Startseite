@@ -124,7 +124,7 @@ header.page nav img {
 #search input[type="search"] { -webkit-appearance: textfield; }
 
 footer {
-    border-top: 2px solid #E0E9EC;
+    border-top: 2px solid #C4D4DA;
     padding: 0.5em 0;
     margin: 0 10% 0 10%;
 }
@@ -205,7 +205,7 @@ article:after, .twocol:after {
 
 article header {
     padding: 20px 0;
-    border-bottom: 2px solid #E0E9EC;
+    border-bottom: 2px solid #C4D4DA;
 }
 
 article header p {
