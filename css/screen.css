@@ -228,11 +228,11 @@ h1 {
 h2 {
     clear: both;
     margin-top: 1em;
-    color: #8a9da8;
 }
 
 article h1 + h2 {
     margin-top: 0;
+    color: #8a9da8;
 }
 
 article .twocol {
@@ -270,7 +270,6 @@ article .twocol h3 {
 
 article aside h2 {
     margin-top: 20px;
-    color: #4C4A4A;
 }
 
 article aside {
