@@ -196,6 +196,9 @@ footer p {
 .sociallinks  a.flattr {
 	background-position: -160px 0;
 }
+.sociallinks  a.trello {
+	background-position: -200px 0;
+}
 .sociallinks  a.github:hover, .sociallinks  a.github:focus {
 	background-position: -80px -40px;
 }
@@ -204,6 +207,9 @@ footer p {
 }
 .sociallinks  a.flattr:hover, .sociallinks  a.flattr:focus {
 	background-position: -160px -40px;
+}
+.sociallinks  a.trello:hover, .sociallinks  a.trello:focus {
+	background-position: -200px -40px;
 }
 
 #content {
@@ -275,7 +281,7 @@ article .twocol li {
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 		-ms-box-sizing: border-box; /* IE, other Gecko */
 		 -o-box-sizing: border-box; /* Opera, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
+		 box-sizing: border-box; /* Opera/IE 8+ */
 }
 
 .twocol li:nth-child(2n) {
