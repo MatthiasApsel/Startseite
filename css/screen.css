@@ -259,6 +259,14 @@ h2 {
 	border-bottom: 2px solid #c4d4da;
 }
 
+#spendenaufruf {
+	background: #F1F3F4;
+	border: 1px solid #D5D5D5;
+	border-radius: 0 0.7em 0.7em;
+	margin: 1.5em 0 1em;
+	padding: .75em 1.25em;
+}
+
 aside h3 {
 	color: #8a9da8;
 }
