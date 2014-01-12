@@ -199,6 +199,9 @@ footer p {
 .sociallinks  a.trello {
 	background-position: -200px 0;
 }
+.sociallinks  a.donate {
+	background-position: -240px 0;
+}
 .sociallinks  a.github:hover, .sociallinks  a.github:focus {
 	background-position: -80px -40px;
 }
@@ -210,6 +213,9 @@ footer p {
 }
 .sociallinks  a.trello:hover, .sociallinks  a.trello:focus {
 	background-position: -200px -40px;
+}
+.sociallinks  a.donate:hover, .sociallinks  a.donate:focus {
+	background-position: -240px -40px;
 }
 
 main {
