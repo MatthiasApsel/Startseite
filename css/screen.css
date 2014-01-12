@@ -365,6 +365,16 @@ article aside li {
 	margin-left: 2em;
 	line-height: 1em;
 }
+.spenden dt::after {
+	content: ":";
+}
+.spenden dd > span {
+	margin-left: .3em;
+}
+.spenden p > img {
+	height: 1.2em;
+	vertical-align: -.25em;
+}
 
 @media screen and (max-width: 80em) {
 	#unterstuetzer li {
