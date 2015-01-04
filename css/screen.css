@@ -223,7 +223,7 @@ main {
 	border-top: 1px solid #0070A2;
 }
 
-article, section, footer p, header.page form {
+article, section, footer p, header nav {
 	max-width: 1200px;
 	margin: auto;
 }
